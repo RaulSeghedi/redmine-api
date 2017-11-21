@@ -1,0 +1,27 @@
+{
+  "name": "redmine-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.4.1",
+    "koa-better-body": "^3.0.4",
+    "koa-convert": "^1.2.0",
+    "koa-cors": "^0.0.16",
+    "koa-router": "^7.0.1",
+    "koa-sslify": "^1.1.0",
+    "mssql": "^3.3.0",
+    "node-schedule": "^1.2.4",
+    "request": "^2.81.0",
+    "request-promise": "^4.1.1",
+    "typings": "^2.1.1"
+  },
+  "devDependencies": {}
+}
