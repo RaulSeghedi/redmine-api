@@ -6,10 +6,10 @@ import {IWSyncServer} from "./app/index";
         databaseConfig: [
             {
                 "database": [
-                    "db-name"
+                    "db-redmine"
                 ],
                 "type": "MsSql",
-                "host": "192.168.101.30",
+                "host": "localhost",
                 "port": 1433,
                 "user": {
                     "username": "InfoWorld",
